@@ -1,0 +1,33 @@
+{
+	//代码区字体大小
+	"editor.fontSize": 13,
+	//代码区字体：（英文字体，注释字体）
+	"editor.fontFamily": "Cascadia Code , '等线', monospace",
+	// "workbench.iconTheme": "vscode-icons",
+	//文件图标主题
+	"workbench.iconTheme": "material-icon-theme",
+	//颜色主题
+	"workbench.colorTheme": "Monokai",
+	"git.path": "D:\\Program Files\\Git\\bin\\git.exe",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"name": "Comment",
+				"scope": [
+					"comment",
+					"comment.block",
+					"comment.block.documentation",
+					"comment.line",
+					"comment.line.double-slash",
+					"punctuation.definition.comment",
+				],
+				"settings": {
+					"fontStyle": "italic",
+					//斜体 "fontStyle": "italic",
+					//斜体下划线 "fontStyle": "italic underline",
+					//斜体粗体下划线 "fontStyle": "italic bold underline",
+				}
+			},
+		]
+	}
+}

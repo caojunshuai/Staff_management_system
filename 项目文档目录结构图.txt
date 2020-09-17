@@ -1,0 +1,29 @@
+.
+├── client
+│   ├── Makefile
+│   ├── client_func.c
+│   ├── client_func.h
+│   ├── client_main.c
+│   ├── operat_func.c
+│   ├── operat_func.h
+│   ├── staffinfo_io.c
+│   └── staffinfo_io.h
+├── include
+│   └── proto.h
+├── log
+│   └── sys_log
+├── server
+│   ├── Makefile
+│   ├── close_fd.c
+│   ├── close_fd.h
+│   ├── server_func.c
+│   ├── server_func.h
+│   ├── server_init.c
+│   ├── server_init.h
+│   ├── server_main.c
+│   ├── sqlite_func.c
+│   └── sqlite_func.h
+├── sqlite
+│   ├── my.db
+│   └── 数据库结构示意.xlsx
+└── 项目文档目录结构图.txt
