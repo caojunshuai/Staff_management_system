@@ -1,5 +1,5 @@
 .
-├── client
+├── client  //客户端文件夹
 │   ├── Makefile
 │   ├── client_func.c
 │   ├── client_func.h
@@ -8,11 +8,11 @@
 │   ├── operat_func.h
 │   ├── staffinfo_io.c
 │   └── staffinfo_io.h
-├── include
+├── include //客户端服务端公用头文件
 │   └── proto.h
-├── log
+├── log     //日志文件
 │   └── sys_log
-├── server
+├── server  //服务器端文件夹
 │   ├── Makefile
 │   ├── close_fd.c
 │   ├── close_fd.h
@@ -23,7 +23,7 @@
 │   ├── server_main.c
 │   ├── sqlite_func.c
 │   └── sqlite_func.h
-├── sqlite
+├── sqlite  //数据库文件
 │   ├── my.db
 │   └── 数据库结构示意.xlsx
 └── 项目文档目录结构图.txt
